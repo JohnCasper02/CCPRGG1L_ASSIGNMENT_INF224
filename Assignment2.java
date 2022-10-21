@@ -27,7 +27,7 @@ public class Assignment {
             System.out.println(myFirstName[counter]);
         }
 
-        //5. Use a for loop to print the char array of your FIRSTNAME in REVERSE order (example: REZILE)
+        //5. Use a for loop to print the char array of your FIRSTNAME in REVERSE order
 
         //For loop
         char[] firstname2 = {'J','O','H','N', 'C','A','S','P','E','R'};
@@ -37,3 +37,4 @@ public class Assignment {
 
         }
     }
+}
