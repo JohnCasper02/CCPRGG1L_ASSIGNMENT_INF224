@@ -1,4 +1,4 @@
-public class Assignment2 {
+public class Assignment {
     public static void main(String[] args) throws Exception {
         int count = 0;
 
@@ -19,7 +19,7 @@ public class Assignment2 {
         for (int l = 0; l != 5;  l++) {
             System.out.println("LAYA");
         }
-        // char array
+        // JOHN CASPER
         
         String[] myFirstName = {"J","O","H","N","C","A","S","P","E","R"};
 
@@ -27,12 +27,13 @@ public class Assignment2 {
             System.out.println(myFirstName[counter]);
         }
 
-        // char array in reverse
-        
-        String[] myfirstname = {"R","E","P","S","A","C","N","H","O","J"};
+        //5. Use a for loop to print the char array of your FIRSTNAME in REVERSE order (example: REZILE)
 
-        for (int l = 0; l < myFirstName.length; l++) {
-            System.out.println(myfirstname[l]);
-}
+        //For loop
+        char[] firstname2 = {'J','O','H','N', 'C','A','S','P','E','R'};
+
+            for (int r = 5; r >= 0; r--){
+            System.out.print(firstname2[r]);
+
+        }
     }
-}
